@@ -2985,7 +2985,7 @@ This document describes the changes made to the Compiler application.
 
   Own Id: OTP-10706
 
-- Binary syntax matches could cause an internal consistency error in in the
+- Binary syntax matches could cause an internal consistency error in the
   compiler. (Thanks to Viktor Sovietov for reporting this bug.)
 
   Own Id: OTP-10724
@@ -4165,7 +4165,7 @@ This document describes the changes made to the Compiler application.
   generated. The incorrect code would either trigger an internal error in the
   compiler or cause an exception at run time. (Thanks to Martin Bjorklund.)
 
-  Corrected a bug in in bit syntax matching where clauses could match in the
+  Corrected a bug in bit syntax matching where clauses could match in the
   wrong order. (Thanks to Ulf Wiger.)
 
   Own Id: OTP-5404 Aux Id: seq9767
